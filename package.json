@@ -1,7 +1,6 @@
 {
   "name": "cyre-react-counter-demo",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "cyre": "^1.0.4",
     "react": "^16.7.0",
