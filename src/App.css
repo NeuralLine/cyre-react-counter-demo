@@ -1,0 +1,15 @@
+/* Neural Line's Cyre-React-counter-example*/
+.CounterApp{
+  padding: 20px;
+  margin:0 auto;
+}
+.CounterSection{
+  width: 100%;
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center
+}
+.badge{
+  min-width: 55px;
+}
