@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { cyre } from "cyre";
+import cyre from "cyre";
 import Counter from "./CounterInterface";
 import AddCounter from "./AddCounter";
 
@@ -14,7 +14,6 @@ export default class Counters extends Component {
   };
 
   componentDidMount() {
-    cyre.on("doNothing", id => console.log("Doing nothing ", id));
     cyre.on("addCounter", this.addCounter);
     cyre.on("handleDelete", this.deleteCounter);
     cyre.on("updateState", this.updateState);
@@ -25,7 +24,7 @@ export default class Counters extends Component {
     cyre.action({ id: "decrementor", type: "minusOne", payload: 0 });
     cyre.action({ id: "incrementor", type: "addOne", payload: 0 });
     cyre.action({ id: "onDelete", type: "handleDelete", payload: 0 });
-    cyre.action({ id: "upToNothing", type: "doNothing", payload: 0 });
+    cyre.action({ id: "upToNothing", type: "unknown", payload: 0, log: true });
     cyre.action({ id: "addCounter", type: "addCounter", payload: 0 });
   }
 
