@@ -1,7 +1,7 @@
 ## Cyre React example
 
 Counter demo with store manager.<br>
-Open [https://cyre-react-example.netlify.com/](https://cyre-react-example.netlify.com/) to view it in the browser.<br><br><br>
+Open [https://cyre-react-demo.netlify.com](https://cyre-react-demo.netlify.com) to view it in the browser.<br><br><br>
 
 ## Cyre installation
 
